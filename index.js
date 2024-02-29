@@ -3,4 +3,6 @@ const returnsANamedFunction = () =>{
     const fn = () =>   console.log('this')
     return fn
 }
-const returnsAnAnonymousFunction = () => function () {console.log('this')}
+const returnsAnAnonymousFunction = () => function () {
+    console.log('this')
+}
